@@ -40,27 +40,4 @@ contrast = ∑∑(i-j)²p(i,j)
 correlation = (∑∑p(i,j)ij - μxμy) / (σx·σy)
 ```
 
-## Поддерживаемые форматы
-- JPEG (.jpg, .jpeg)
-- PNG (.png) 
-- BMP (.bmp)
-- TIFF (.tiff, .tif)
 
-## Структура проекта
-```
-prj.cw/
-├── CMakeLists.txt     # Конфигурация сборки
-├── vcpkg.json        # Зависимости
-├── src/
-│   ├── main.cpp      # Основная программа
-│   ├── glcm.cpp      # Реализация GLCM
-│   └── glcm.h        # Заголовочный файл
-└── README.md         # Данный файл
-```
-
-## Автор
-Chvikov M. E.
-
-## Курсовая работа
-Дисциплина: Компьютерное зрение  
-Год: 2025
