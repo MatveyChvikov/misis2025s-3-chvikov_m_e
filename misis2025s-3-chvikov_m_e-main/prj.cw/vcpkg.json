@@ -1,8 +1,0 @@
-{
-  "name": "glcm-analyzer",
-  "version": "1.0.0",
-  "description": "GLCM texture analysis application",
-  "dependencies": [
-    "opencv"
-  ]
-}
